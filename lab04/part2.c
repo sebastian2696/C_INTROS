@@ -15,7 +15,7 @@ void print_int(char v[], int n)
 int main()
 {
    char v[1000], print;
-   int x,n = 0;
+   int n = 0;
    
    /*while ((c = getchar()) != EOF) {
         c = getchar();
@@ -29,7 +29,6 @@ int main()
         v[n] = print;
         ++n;
     }
-    x= v[n];
     print_int(v, n);
     return 0;
 }  
