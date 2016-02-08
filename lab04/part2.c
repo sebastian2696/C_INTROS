@@ -26,7 +26,6 @@ int main()
     while (print != 10)
     {
         scanf("%c",&print);
-        //printf("%d",c);
         v[n] = print;
         ++n;
     }
@@ -34,6 +33,3 @@ int main()
     print_int(v, n);
     return 0;
 }  
-
-// See Warnings/ Error... Ask Engin Monday [ Data Type :'( ]
-// Compare to part2.5 (reworked version V1.04)
