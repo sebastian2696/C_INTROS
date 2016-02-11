@@ -16,7 +16,6 @@ int main()
 {
    char v[1000], print;
    int n = 0;
-    }*/
     printf("Enter a number:\n");
     while (print != 10)
     {
