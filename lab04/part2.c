@@ -16,23 +16,31 @@ int main()
 {
    char v[1000], print;
    int n = 0;
+<<<<<<< HEAD
    
    /*while ((c = getchar()) != EOF) {
         c = getchar();
         v[n] = c;
         ++n;
     }*/
+=======
+>>>>>>> 5eeb65117093c55a1ec074faf9e9369457e97d7c
     printf("Enter a number:\n");
     while (print != 10)
     {
         scanf("%c",&print);
-        //printf("%d",c);
         v[n] = print;
         ++n;
     }
+<<<<<<< HEAD
 //    x= v[n];
     print_int(v, n);
     return 0;
 }  
 
 
+=======
+    print_int(v, n);
+    return 0;
+}  
+>>>>>>> 5eeb65117093c55a1ec074faf9e9369457e97d7c
