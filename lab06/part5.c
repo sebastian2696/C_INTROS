@@ -3,8 +3,8 @@
 #include <time.h>
 // #include <float.h> 0.16
 
-//long int random(void);
- srandom(time(NULL));
+long int random(void);
+// srandom(time(NULL));
 
 
 int GAME(void)

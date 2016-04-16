@@ -1,0 +1,60 @@
+Q1: What values do argc and have when this program is run
+	without any command-line parameters?
+	
+	They do not have a defined parameter, in any case it will be at least 1. Because the is no argument passed by the command line
+	
+Q2: What value do they have when run with a filename as
+	an input argument?
+	
+	argc : 2
+	argv : is a one dimensional array where the first term is the name of the program/executable
+	The second aka. argv[1] is the file inputed as an argument.,
+	
+Q3: When is the condition !fp true, and when is it false?
+
+    It is true when the file has a content. It is false when the file is emptt or with corrupted data.
+    
+Q4: strerror() is called with the global variable
+	errno that the C library maintains internally.
+	What does strerror do?
+	
+	Basically is a function that returns an error description string
+	
+Q5: What does the exit() library function do?
+    Exits the program competletely.
+    
+Q6: What does a for(;;) loop do?
+    An never ending loop aka while(1)
+    
+Q7: What is the difference between the types size_t
+	and ssize_t ?
+    THey do the practically the same function. THe big difference is that ssize_t can output an unsigned type.
+    
+Q8: What does the getline function do? 
+    Basically, it can read lines in a file allocate a certain amount of memeory (dynamic memory allocation) using the first parameter
+    
+Q9: What does it return in the normal case,
+	upon EOF, and upon error?    
+	
+	getline returns the number of characters read (up to and including the newline, but not the final null character).
+	and the first parameter is the line read.
+	
+	Upon error it returns a -1 value.
+	
+Q10: What do the fputs and fflush functions do?
+
+    fputs is a function that prints the input of a file. fflush resets the buffer.
+
+Q11: Why should we use them instead of printf or fprintf? 
+
+    printf or fprintf outputs to the command line the file, while fputs is a copy paste function to be simple.
+
+Q12: What does the value of n represent?
+
+n represents rc who is the vatiable output for getline aka the number of character read by getline.
+
+		
+		
+	
+	
+	 
