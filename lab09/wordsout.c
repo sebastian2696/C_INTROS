@@ -1,3 +1,5 @@
+//by Sebastian Foubert
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,22 +7,23 @@
 #include <ctype.h>
 
 
+
 int process_line(char *line, size_t n)
 {
-	int i;
+	int i,j;
 
-
-	while (line[i]) // Lower cap
-	{
-		if (line[i] > 63 && line[i] < 97 )
-			line[i] = line[i] + 32;
+	i=0;
+	while (line[i]) //single out word
+	{ 
+		if (isspace(line[i]) != 0 )//&& line[i] != line[i+1])
+			line[i] = '\n';
 		i++;
 	}
-
+	
 	fputs(line, stdout);
 	fflush(stdout);
-	printf("\n");
 	
+	//free(k);
 	return 0;
 }
 

@@ -1,0 +1,6 @@
+Because the skeleton code and the instructions require us to use the getline function, we found that
+additional white space was being incorporated into the cat, and was preventing our uniq function from
+finding the complete number of instances of words. To correct this, we ran the funtion sed '/^s*$/d'
+in our pipeline. The code is above so that you can reproduce our results as we found them. This code eliminates the spaces created by getline.
+
+by Emma Gutzmann and Sebastian Velasquez-Foubert 
